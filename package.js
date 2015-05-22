@@ -16,6 +16,7 @@ Package.on_use(function (api) {
     'session',
     'pedrohenriquerls:reactjs',
     'mongo',
+    'youiest:recommend',
     ], ['client', 'server']);
 
   api.export('Vote',['client','server']);
